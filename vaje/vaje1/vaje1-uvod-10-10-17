@@ -1,0 +1,9 @@
+Sprotno delo, 9 nalog, 6 nalog za pozitivno oceno (vaje). Na vajah se zagovarja naloge.
+
+Na koncu sesmestra seminar, namesto pisnega izpita, na koncu še ustni izpit.
+
+4 tematike:
+	*Delo z nitmi - Pisanje programa, da bo tekel na več nitih/jedrih. (uporaba knjižnjice pthreads, openMP)
+	*(?mogoče bomo mogoče ne?), intlova MIC arhitektura (XEON PHI), računska PIC-E kartica.
+	*Grafične kartice (OpenCL)
+	*Cluster 1000 procesorjev na arnesu, kako bodo programi tam laufal

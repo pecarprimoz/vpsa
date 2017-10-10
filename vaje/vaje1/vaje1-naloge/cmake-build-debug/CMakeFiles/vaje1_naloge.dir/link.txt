@@ -1,0 +1,1 @@
+/usr/bin/cc -g   CMakeFiles/vaje1_naloge.dir/main.c.o  -o vaje1_naloge 

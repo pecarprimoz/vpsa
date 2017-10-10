@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="vaje1_naloge"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="/home/primoz/faks/vspa/vaje/vaje1/vaje1-naloge/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/primoz/faks/vspa/vaje/vaje1/vaje1-naloge/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/primoz/faks/vspa/vaje/vaje1/vaje1-naloge/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/primoz/faks/vspa/vaje/vaje1/vaje1-naloge/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/primoz/faks/vspa/vaje/vaje1/vaje1-naloge/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="/home/primoz/faks/vspa/vaje/vaje1/vaje1-naloge/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/primoz/faks/vspa/vaje/vaje1/vaje1-naloge/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/primoz/faks/vspa/vaje/vaje1/vaje1-naloge/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/primoz/faks/vspa/vaje/vaje1/vaje1-naloge/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/primoz/faks/vspa/vaje/vaje1/vaje1-naloge/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="/home/primoz/faks/vspa/vaje/vaje1/vaje1-naloge/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/primoz/faks/vspa/vaje/vaje1/vaje1-naloge/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/primoz/faks/vspa/vaje/vaje1/vaje1-naloge/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/primoz/faks/vspa/vaje/vaje1/vaje1-naloge/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/primoz/faks/vspa/vaje/vaje1/vaje1-naloge/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="vaje1_naloge">
+				<Option output="/home/primoz/faks/vspa/vaje/vaje1/vaje1-naloge/cmake-build-debug/vaje1_naloge" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/primoz/faks/vspa/vaje/vaje1/vaje1-naloge/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/c++/6"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/6"/>
+					<Add directory="/usr/include/c++/6/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/6/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/6/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/primoz/faks/vspa/vaje/vaje1/vaje1-naloge/cmake-build-debug/Makefile&quot;  VERBOSE=1 vaje1_naloge"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/primoz/faks/vspa/vaje/vaje1/vaje1-naloge/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/primoz/faks/vspa/vaje/vaje1/vaje1-naloge/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/primoz/faks/vspa/vaje/vaje1/vaje1-naloge/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="vaje1_naloge/fast">
+				<Option output="/home/primoz/faks/vspa/vaje/vaje1/vaje1-naloge/cmake-build-debug/vaje1_naloge" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/primoz/faks/vspa/vaje/vaje1/vaje1-naloge/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/c++/6"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/6"/>
+					<Add directory="/usr/include/c++/6/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/6/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/6/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/primoz/faks/vspa/vaje/vaje1/vaje1-naloge/cmake-build-debug/Makefile&quot;  VERBOSE=1 vaje1_naloge/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/primoz/faks/vspa/vaje/vaje1/vaje1-naloge/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/primoz/faks/vspa/vaje/vaje1/vaje1-naloge/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/primoz/faks/vspa/vaje/vaje1/vaje1-naloge/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="/home/primoz/faks/vspa/vaje/vaje1/vaje1-naloge/main.c">
+			<Option target="vaje1_naloge"/>
+		</Unit>
+		<Unit filename="/home/primoz/faks/vspa/vaje/vaje1/vaje1-naloge/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>
