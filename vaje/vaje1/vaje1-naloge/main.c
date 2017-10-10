@@ -84,9 +84,9 @@ int *prompt_user() {
         }
         scanf("%d", &current_number);
         if (current_number > INT_MAX && (counter == 1)) {
-            printf("Please specify a number smaller than: %d\n", 100);
+            printf("Please specify a number smaller than: %d\n", INT_MAX);
         } else if ((current_number > INT_MAX) && counter == 0) {
-            printf("Please specify a number smaller than: %d\n", 100 * 100);
+            printf("Please specify a number smaller than: %d\n", INT_MAX);
         } else {
             pt[counter] = current_number;
             current_number = 0;
