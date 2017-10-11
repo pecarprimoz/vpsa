@@ -2,6 +2,10 @@
 #include <time.h>
 #include <stdlib.h>
 #include <limits.h>
+// Definicija funkcije
+double *Random (int n);
+double **Matrix(double *A, int n, int r);
+double *Max(double *A, int n);
 
 //Testi
 void test_Random(double *p) {
@@ -46,9 +50,9 @@ double *Random(int n) {
 //Naloga 2
 double **Matrix(double *A, int n, int r) {
     double **dp;
-    dp = (double **) calloc((n % r == 0 ? r : r + 1), sizeof(double *));
+    dp = (double **) calloc((size_t)(n % r == 0 ? r : r + 1), sizeof(double *));
     for (int i = 0; i < n; i++) {
-        dp[i] = (double *) calloc(n / r, sizeof(double));
+        dp[i] = (double *) calloc((size_t)n / r, sizeof(double));
     }
     int col_size, cur_row;
     col_size = cur_row = 0;
@@ -114,6 +118,7 @@ double *Max(double *A, int n) {
 
 int main() {
     //Naloga 1
+    srand(time(NULL));
     clock_t start, stop;
     double time;
     int input_n, input_r;
@@ -136,7 +141,7 @@ int main() {
     /* Debugganje
      * //test_Random(p); //Deluje
      * //printf("%d\n%d\n%d\n",input_random,input_row,input_col); //dobi pravilne vrednosti, omejeno z 100
-     *  Made by primož
-     * /
+     * //Made by primož
+     */
     return 0;
 }
