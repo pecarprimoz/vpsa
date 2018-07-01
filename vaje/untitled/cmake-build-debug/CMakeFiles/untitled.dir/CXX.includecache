@@ -1,0 +1,20 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/primoz/faks/vspa/vaje/untitled/main.cpp
+stdio.h
+-
+sys/socket.h
+-
+netinet/in.h
+-
+unistd.h
+-
+pthread.h
+-
+

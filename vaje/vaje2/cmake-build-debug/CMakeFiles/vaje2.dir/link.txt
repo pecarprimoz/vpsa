@@ -1,0 +1,1 @@
+/usr/bin/c++  -g   CMakeFiles/vaje2.dir/serverLinux.cpp.o  -o vaje2 
